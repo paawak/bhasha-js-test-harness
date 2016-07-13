@@ -24,7 +24,7 @@ public class GoogleSearchSteps {
 
     @Given("^I am on the Google search page$")
     public void iVisitGoogle() {
-	driver.get("http://www.google.com");
+	driver.get("file:///D:/personal/code/bhasha-js/index.html");
     }
 
     @When("^I search for \"(.*)\"$")
