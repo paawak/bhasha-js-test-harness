@@ -8,6 +8,6 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = { "src/test/resources/features" }, plugin = { "pretty", "html:target/cucumber-html-report", "junit:target/cucumber-junit-report/allcukes.xml" },
 	glue = { "com.swayam.bhasha.js.test.glue" })
-public class RunCucumberTest {
+public class RunAllCucumberTest {
 
 }
