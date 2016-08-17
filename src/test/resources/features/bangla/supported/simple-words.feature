@@ -1,6 +1,6 @@
- Feature: Bangla typing currently supported
+ Feature: Simple words
  	
-Scenario: Typing a basic word কাক
+Scenario: Typing a simple word কাক
   Given I am on the Bhasha editor
   When I type "kak"
   Then Bhasha editor should display "কাক"
