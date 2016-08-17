@@ -32,7 +32,7 @@ public class BanglaTypingSteps {
     }
 
     @Then("^Bhasha editor should display \"(.*)\"$")
-    public void theTotalPriceShouldBeC(String expectedString) {
+    public void theBhashaEditorShouldDisplay(String expectedString) {
 	WebElement indicTextEditor = driver.findElement(ById.id("indicTextEditor"));
 	assertEquals(expectedString, indicTextEditor.getAttribute("value"));
     }
